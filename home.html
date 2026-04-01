@@ -15,39 +15,42 @@
 <h1>Daily Affirmations</h1>
 </div>
 
+<form action="/submit-page" method="POST">
 <div class="container">
   <div class="box-1">
-  <h3>Are you feeling sad today?</h3>
-  <!-- <p>Don't worry, you are not alone. Here are some affirmations to help you feel better:</p> -->
-  <form>
+    <h3>Are you feeling sad today?</h3>
+    <!-- <p>Don't worry, you are not alone. Here are some affirmations to help you feel better:</p> -->
      <input type="radio" id="yes" name="sad_option" value="yes">
      <label for="yes">Yes</label><br>
      <input type="radio" id="no" name="sad_option" value="no">
      <label for="no">No</label><br>
-  </form>
   </div>
 
   <div class="box-2">
-  <h3>Are you feeling stressed today?</h3>
-  <form>
+     <h3>Are you feeling stressed today?</h3>
      <input type="radio" id="yes" name="stressed_option" value="yes">
      <label for="yes">Yes</label><br>
      <input type="radio" id="no" name="stressed_option" value="no">
      <label for="no">No</label><br>
-  </form>
   </div>
 
   <div class="box-3">
-  <h3>Are you feeling anxious today?</h3>
-  <form>
+     <h3>Are you feeling anxious today?</h3>
      <input type="radio" id="yes" name="anxious_option" value="yes">
      <label for="yes">Yes</label><br>
      <input type="radio" id="no" name="anxious_option" value="no">
      <label for="no">No</label><br>
-  </form>
   </div>
-
 </div>
+<br>
+<br>
+<br>
+  <button type="submit">Send Form</button>
+
+
+  </form>
+
+
 
 
     
