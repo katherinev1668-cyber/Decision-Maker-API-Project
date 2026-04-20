@@ -19,15 +19,32 @@ h3 {
     font-size: 23px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap:30px;
-  padding: 10px;
-  text-align: center;
+
+.hero-image {
+  background-image: url("./media/flowers.png");
+  filter: invert();
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
+.box-form {
+  font-size: 26px;
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  filter: invert();
+  
+}
+
+
 button {
+    filter: invert();
     background-color: #FFF7ED;
     color: #8A4751;
     border: none;
@@ -39,5 +56,13 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 350px;
+}
+
+@media (max-width: 600px) {    
+    img {
+        width: 100%;
+        height: auto;
+    }
     
 }

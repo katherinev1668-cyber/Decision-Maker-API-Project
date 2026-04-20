@@ -15,48 +15,38 @@
 <h1>Daily Affirmations</h1>
 </div>
 
-<form action="/submit-page" method="POST">
-<div class="container">
-  <div class="box-1">
-    <h3>Are you feeling sad today?</h3>
-    <!-- <p>Don't worry, you are not alone. Here are some affirmations to help you feel better:</p> -->
-     <input type="radio" id="yes" name="sad_option" value="yes">
-     <label for="yes">Yes</label><br>
-     <input type="radio" id="no" name="sad_option" value="no">
-     <label for="no">No</label><br>
-  </div>
+ <div class= "hero-image">
 
-  <div class="box-2">
-     <h3>Are you feeling stressed today?</h3>
-     <input type="radio" id="yes" name="stressed_option" value="yes">
-     <label for="yes">Yes</label><br>
-     <input type="radio" id="no" name="stressed_option" value="no">
-     <label for="no">No</label><br>
+<form>
+<div class="box-form">
+    <h3>How Are You Feeling Today?</h3>
+     <input type="radio" id="sad" name="feeling_option" value="sad">
+     <label for="sad">sad</label><br>
+     <input type="radio" id="happy" name="feeling_option" value="happy">
+     <label for="happy">happy</label><br>
+     <input type="radio" id="angry" name="feeling_option" value="angry">
+     <label for="angry">angry</label><br>
+      <input type="radio" id="anxious" name="feeling_option" value="anxious">
+      <label for="anxious">anxious</label><br>
+      <input type="radio" id="stressed" name="feeling_option" value="stressed">
+      <label for="stressed">stressed</label><br>
+      <input type="radio" id="tired" name="feeling_option" value="tired">
+      <label for="tired">tired</label><br>
+      <input type="radio" id="lonely" name="feeling_option" value="lonely">
+      <label for="lonely">lonely</label><br>
   </div>
-
-  <div class="box-3">
-     <h3>Are you feeling anxious today?</h3>
-     <input type="radio" id="yes" name="anxious_option" value="yes">
-     <label for="yes">Yes</label><br>
-     <input type="radio" id="no" name="anxious_option" value="no">
-     <label for="no">No</label><br>
-  </div>
-</div>
-<br>
-<br>
 <br>
   <button type="submit">Send Form</button>
-
-
   </form>
 
 
 
 
-    
+    </div>
 
 
 
-
+<script src="index.js"></script>
 </body>
+
 </html>
