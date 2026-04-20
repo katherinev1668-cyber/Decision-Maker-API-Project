@@ -1,53 +1,37 @@
-[
-    { 
-         "sad": [    
-             "This feeling is temporary, even if it doesn’t feel like it right now.",
-             "I am allowed to feel sad and still be worthy of care.",
-             "I am not alone, even if it feels that way."
-        ]
-    },
-    {
-        "lonely": [
-             "I am worthy of connection and meaningful relationships.",
-             "There are people who will understand and appreciate me.",
-             "I bring value to the lives of others, even if I can’t see it right now."
-        ]
-    },
-    {
-        "anxious": [
-             "I can take this one breath at a time.",
-             "I can ground myself in what is real and present.",
-             "I am stronger than this wave of anxiety."
-        ]
-    },
-    {
-        "stressed": [
-             "I am allowed to pause and breathe.",
-             "I am doing the best I can with what I have.",
-             "I can create small moments of calm in my day."
-        ]
-    },
-    {
-        "tired": [
-             "I don’t have to push myself beyond my limits.",
-             "Resting now will help me feel stronger later.",
-             "Taking care of myself is important and necessary."
-        ]
-    },
-    {
-        "angry": [
-             "I am in control of my actions, even when emotions feel intense.",
-             "I can release tension without hurting myself or others.",
-             "I am allowed to set boundaries and protect my peace."
-        ]
-    },
-    {
-        "happy": [
-             "Happiness is something I can notice and appreciate.",
-             "Good moments are worth remembering and holding onto.",
-             "I deserve to enjoy this moment fully."
-        ]
-    }
-
-    
-]
+{
+  "sad": [
+    "This feeling is temporary, even if it doesn’t feel like it right now.",
+    "I am allowed to feel sad and still be worthy of care.",
+    "I am not alone, even if it feels that way."
+  ],
+  "lonely": [
+    "I am worthy of connection and meaningful relationships.",
+    "There are people who will understand and appreciate me.",
+    "I bring value to the lives of others, even if I can’t see it right now."
+  ],
+  "anxious": [
+    "I can take this one breath at a time.",
+    "I can ground myself in what is real and present.",
+    "I am stronger than this wave of anxiety."
+  ],
+  "stressed": [
+    "I am allowed to pause and breathe.",
+    "I am doing the best I can with what I have.",
+    "I can create small moments of calm in my day."
+  ],
+  "tired": [
+    "I don’t have to push myself beyond my limits.",
+    "Resting now will help me feel stronger later.",
+    "Taking care of myself is important and necessary."
+  ],
+  "angry": [
+    "I am in control of my actions, even when emotions feel intense.",
+    "I can release tension without hurting myself or others.",
+    "I am allowed to set boundaries and protect my peace."
+  ],
+  "happy": [
+    "Happiness is something I can notice and appreciate.",
+    "Good moments are worth remembering and holding onto.",
+    "I deserve to enjoy this moment fully."
+  ]
+}
